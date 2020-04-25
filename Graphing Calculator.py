@@ -1,4 +1,4 @@
-import numpy as np
+from numpy import *
 import matplotlib.pyplot as plt
 
 def cMode():
@@ -48,17 +48,10 @@ while mode != "q":
 	print(""" 
 		1. c (Normal calculation)
 		2. g (Graphing)
-		3. h (Help)
-		4. q (Quit)
+		3. q (Quit)
 		""")
 	mode = input().lower()
 	if mode == "c":
 		cMode()
 	if mode == "g":
 		gMode()
-	if mode == "h":
-		print(""" 
-			1. Do not use paretheses while multiplying.
-			2. Put 'np.' before using any of the numpy functions. 
-			""")
-		print("")
