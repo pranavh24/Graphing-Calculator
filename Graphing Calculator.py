@@ -34,7 +34,7 @@ def gMode():
 				break
 			else:
 				r2 = int(r2)
-			x = np.array(range(int(r1), int(r2)))
+			x = array(range(int(r1), int(r2)))
 			y = eval(bytes([ord(p) for p in eq]))
 			plt.plot(x, y)
 			plt.show()
